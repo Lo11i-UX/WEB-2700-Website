@@ -1,0 +1,31 @@
+@import "bootstrap.css";
+
+body {
+    background-color: #FFFFFF; 
+    color: #000000; 
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    color: #43b5eb; /* 9.05:1 https://venngage.com/tools/accessible-color-palette-generator */
+}
+
+a {
+    color: #000000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid black;
+    padding: 6px;
+    text-align: left;
+}
+
+
+
+
+
+
