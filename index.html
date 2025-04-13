@@ -6,17 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accessiblity Website</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<script type="module" src="./javascripts/main.js"></script>
+<style>
+    img {
+        width: 100%;
+    }
+</style>
 </head>
 
 <body>
     <header>
         <h1>Lauren's Accessiblity Website</h1>
     </header>
-    <nav aria-label="Main Navigation">
+    <nav aria-label="Main Navigation" class="navbar">
         <ul>
+            <li><a href="index.html" class="active">Home</a></li>
             <li><a href="language.html">Plain Language</a></li>
-            <li><a href="design.html">Design</a></li>
-            <li><a href="about.html">About Me</a></li>
+            <li><a href="design.html">Site Design</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
             <li><a href="contact.html">Contact Me</a></li>
         </ul>
     </nav>
@@ -37,7 +45,94 @@
                 compared to the United States which has 42,485,034 disabled people or 13.0% of the total
                 population. Table 1: Disability Type by Gender for Utah and the United States shows the
                 disparities between genders and types of disabilities.</p>
-            <p>There are a few reasons why these disparities exist; however, that is not a topic for this page.</p>
+                <table>
+                    <caption>Disabilities in Utah and the United States (by Gender)</caption>
+                    <thead>
+                      <tr>
+                        <th rowspan="2">Disability Type</th>
+                        <th colspan="2">Male</th>
+                        <th colspan="2">Female</th>
+                        <th colspan="2">Total</th>
+                      </tr>
+                      <tr>
+                        <th>Utah</th>
+                        <th>United States</th>
+                        <th>Utah</th>
+                        <th>United States</th>
+                        <th>Utah</th>
+                        <th>United States</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Cognitive Disability</td>
+                        <td>8.8%</td>
+                        <td>9.5%</td>
+                        <td>12.7%</td>
+                        <td>12.3%</td>
+                        <td>10.7%</td>
+                        <td>10.9%</td>
+                      </tr>
+                      <tr>
+                        <td>Hearing Disability</td>
+                        <td>7.6%</td>
+                        <td>7.2%</td>
+                        <td>4.2%</td>
+                        <td>4.4%</td>
+                        <td>5.9%</td>
+                        <td>5.7%</td>
+                      </tr>
+                      <tr>
+                        <td>Mobility Disability</td>
+                        <td>6.6%</td>
+                        <td>9.6%</td>
+                        <td>10.7%</td>
+                        <td>12.5%</td>
+                        <td>8.7%</td>
+                        <td>11.1%</td>
+                      </tr>
+                      <tr>
+                        <td>Vision Disability</td>
+                        <td>2.4%</td>
+                        <td>4.4%</td>
+                        <td>3.2%</td>
+                        <td>5.3%</td>
+                        <td>2.8%</td>
+                        <td>4.9%</td>
+                      </tr>
+                      <tr>
+                        <td>Self-Care Disability</td>
+                        <td>1.9%</td>
+                        <td>3.0%</td>
+                        <td>2.4%</td>
+                        <td>3.1%</td>
+                        <td>2.1%</td>
+                        <td>3.0%</td>
+                      </tr>
+                      <tr>
+                        <td>Independent Living Disability</td>
+                        <td>3.9%</td>
+                        <td>4.8%</td>
+                        <td>2.4%</td>
+                        <td>7.9%</td>
+                        <td>5.4%</td>
+                        <td>6.4%</td>
+                      </tr>
+                      <tr>
+                        <td>No Disability</td>
+                        <td>79.3%</td>
+                        <td>76.5%</td>
+                        <td>75.5%</td>
+                        <td>73.8%</td>
+                        <td>77.4%</td>
+                        <td>75.2%</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+
+
+                <p>There are a few reasons why these disparities exist; however, that is not a topic for this page.</p>
             <p>When it comes to representation by race, there are some interesting differences between Utah
                 and the United States. Table 2: Disability Percent by Race, you can see that Utah has a higher
                 occurrence of disabilities in the Black or African American, American Indian and Alaska Natives,
@@ -48,7 +143,82 @@
                 million people) and Utah (roughly 350,000 people), we can understand the importance of
                 building accessible experiences for all people.</p>
 
+                <table>
+                    <caption>Disability by Race and Ethnicity in Utah and the U.S.</caption>
+                    <thead>
+                      <tr>
+                        <th>Race/Ethnicity</th>
+                        <th>Utah</th>
+                        <th>United States</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>White</td>
+                        <td>10.8%</td>
+                        <td>14.0%</td>
+                      </tr>
+                      <tr>
+                        <td>Black or African-American</td>
+                        <td>10.1%</td>
+                        <td>14.5%</td>
+                      </tr>
+                      <tr>
+                        <td>American Indian and Alaska Natives</td>
+                        <td>18.6%</td>
+                        <td>15.1%</td>
+                      </tr>
+                      <tr>
+                        <td>Asian</td>
+                        <td>7.8%</td>
+                        <td>7.8%</td>
+                      </tr>
+                      <tr>
+                        <td>Native Hawaiian and Other Pacific Islanders</td>
+                        <td>9.9%</td>
+                        <td>12.9%</td>
+                      </tr>
+                      <tr>
+                        <td>Hispanic or Latino</td>
+                        <td>8.2%</td>
+                        <td>9.9%</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+
         </article>
+        <div class="bg-dark-subtle container-fluid">
+            <h1>Labor Force Participation Rate by Disability Status and Age, 2023</h1>
+            <p>This bar chart illustrates the labor force participation rates of individuals with and without disabilities, segmented by age group. The x-axis represents age ranges (16-19, 20-24, 25-34, 35-44, 45-54, 55-64), while the y-axis represents labor force participation rates as a percentage. Each age group contains two bars: one for people with disabilities and one for people without disabilities.</p>
+            <img src="https://weber.instructure.com/courses/596832/files/117344487/preview" alt=""> 
+            <ul>
+            <li>Young Workers (16-19, 20-24):
+            <ul>
+            <li>Participation is lowest in the 16-19 age group, with both disabled and non-disabled individuals having the lowest workforce engagement.</li>
+            <li>The rate increases in the 20-24 age range, though a significant gap remains between the two groups.</li>
+            <img src="" alt="">
+            </ul>
+            </li>
+            <li>Prime Working Years (25-34, 35-44, 45-54):
+            <ul>
+                <img src="https://weber.instructure.com/courses/596832/files/117344486/preview" alt="">
+            <li>Non-disabled individuals have high participation rates across these years, peaking between 35-44.</li>
+            
+            <li>Disabled individuals also experience their highest participation in this range but at substantially lower rates than their non-disabled counterparts.</li>
+            </ul>
+            </li>
+            <li>Older Workers (55-64):
+            <ul>
+                <img src="https://weber.instructure.com/courses/596832/files/117344485/preview" alt="">
+            <li>Participation rates decline for both groups as they near retirement age.</li>
+            <li>The gap between disabled and non-disabled workers remains evident, though both groups show a downward trend.</li>
+            </ul>
+            </li>
+            </ul>
+            
+            <p>This chart highlights the persistent labor force participation gap between disabled and non-disabled individuals across all age groups. Younger and older disabled individuals have particularly low participation rates, while the disparity is most pronounced in prime working years (25-54).</p>
+            <img src="https://weber.instructure.com/courses/596832/files/117344490/preview" alt="">
         <article aria-labelledby="universal-design-heading">
             <h2 id="universal-design-heading">Universal Design is Design for All</h2>
             <p>Even the creator of the web, Tim Berners-Lee understood the importance of inclusion in web
