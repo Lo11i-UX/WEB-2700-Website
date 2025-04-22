@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 504">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #231f20;
+      }
+
+      .cls-1, .cls-2, .cls-4 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-1, .cls-4 {
+        font-size: 24px;
+      }
+
+      .cls-2 {
+        font-size: 14px;
+      }
+
+      .cls-5 {
+        fill: #492565;
+      }
+
+      .cls-3 {
+        font-family: Arial-BoldMT, Arial;
+        font-size: 28px;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        fill: #a595c3;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <rect class="cls-5" x="428.83" y="90.84" width="45.62" height="36.5"/>
+      <path class="cls-5" d="M220.34,273.32l151.85-49.34c27.25,83.87-18.65,173.94-102.51,201.19-83.87,27.25-173.94-18.65-201.19-102.51-27.25-83.87,18.65-173.94,102.51-201.19,16.44-5.34,32.06-7.81,49.34-7.81v159.67Z"/>
+    </g>
+    <g>
+      <rect class="cls-6" x="428.83" y="145.59" width="45.62" height="36.5"/>
+      <path class="cls-6" d="M220.34,273.32V113.65c70.9,0,129.94,42.9,151.85,110.33l-151.85,49.34Z"/>
+    </g>
+  </g>
+  <g>
+    <text class="cls-1" transform="translate(480.15 115.5)"><tspan x="0" y="0">Above Poverty Line</tspan></text>
+    <text class="cls-1" transform="translate(480.15 170.25)"><tspan x="0" y="0">Below Poverty Line</tspan></text>
+  </g>
+  <text class="cls-3" transform="translate(31.72 56.88)"><tspan x="0" y="0">Disabled adults poverty status, 2021</tspan></text>
+  <text class="cls-2" transform="translate(41.49 466.59)"><tspan x="0" y="0">Source: U.S. Bueau of Labor Statistics.</tspan></text>
+  <text class="cls-1" transform="translate(254.98 203.04)"><tspan x="0" y="0">19.7%</tspan></text>
+  <text class="cls-4" transform="translate(141.33 345.85)"><tspan x="0" y="0">80.3%</tspan></text>
+</svg>

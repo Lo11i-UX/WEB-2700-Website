@@ -1,0 +1,62 @@
+
+html {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.banner {
+    background-color: #43b5eb;
+}
+img{
+    width: 80vw;
+}
+
+@media all and (min-width: 768px){
+    img { width: 40vw}
+}
+
+.hidden{
+    display: none;
+}
+
+.navbar li a.active,
+.navbar li a:hover {
+  background-color: hsl(211, 100%, 79%);
+  color: white;
+}
+
+body {
+    background-color: #FFFFFF; 
+    color: #000000; 
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    color: #43b5eb; /* 9.05:1 https://venngage.com/tools/accessible-color-palette-generator */
+}
+
+a {
+    color: #000000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table>caption>span{
+    font-size: .7rem;
+}
+td, th {
+    border: 1px solid black;
+    padding: 6px;
+    text-align: center;
+}
+
+.bg-mint {
+    background-color: #e0f7fa;
+  }
+
+  .clearfix {
+    overflow: auto;
+  }
+  

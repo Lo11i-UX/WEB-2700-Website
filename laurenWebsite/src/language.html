@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script type="module" src="./javascripts/main.js"></script>
+</head>
+
+
+<body class="bg-dark text-light">
+    <div><a href="#mainCont" class="skip focus-ring focus-ring-info"></a></div>
+    <div class="container">
+        <header class="border-bottom border-info lh-1 py-3 text-center text-info">Lauren Barfuss Accessibility Site
+        </header>
+        <nav aria-label="Main Navigation" class="navbar navbar-expand-lg nav-underline py-3 border-bottom border-info">
+            <div class="container d-flex flex-column align-item-center">
+                <button class="navbar-toggler focus-ring focus-ring-info bg-info" type="button"
+                    data-bs-toggle="collapse">
+                    <i class="bi bi-list fs-2"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="navbar-item">
+                            <a href="index.html" class="text-info nav-link focus-ring focus-ring-info">Home</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="language.html"
+                                class="text-info active bg-primary bg-opacity-25 rounded  nav-link focus-ring focus-ring-info">Plain
+                                Language</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="design.html" class="text-info nav-link focus-ring focus-ring-info">Site Design</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="aboutme.html" class="text-info nav-link focus-ring focus-ring-info">About
+                                Me</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="contact.html" class="text-info nav-link focus-ring focus-ring-info">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </header>
+
+        <main class="mt-4">
+            <section class="bg-info bg-opacity-50 p-3 rounded">
+                <h2 class="text-white border-bottom pb-2 h2 fw-bold">Plain Language: What is it? And how do I do it?</h2>
+                <p>Plain language means writing in a way that your audience can easily understand. It focuses on
+                    clarity,
+                    simplicity, and structure. Whether it's a webpage, email, or document, plain language helps your
+                    message
+                    come through clearly, especially for people who may be unfamiliar with technical terms or who use
+                    screen
+                    readers or translation tools.</p>
+            </section>
+            <section class="bg-info bg-opacity-50 p-3 rounded mt-4">
+                <h3 class="text-white border-bottom pb-2 h3 fw-bold">What Are the Key Guidelines?</h3>
+                <h4>Know your audience:</h4>
+                <p>Tailor your message to your readers’ needs, expectations, and
+                    background. Your audience wants to grasp the message quickly</p>
+
+                <h4>Organize your content:</h4>
+                <p>Start with the most important points. Use headings and subheadings. Use bullet points and numbered
+                    lists.
+                    Reduces the reader's cognitive load.</p>
+
+                <h4>Use Plain and Simple Language:</h4>
+                <p>Avoid technical jargon, complex words, and convoluted sentences. Keep your message clear and
+                    accessible.
+                </p>
+
+                <h4>Use active voice:</h4>
+                <p>Active voice makes your writing direct and energetic. While passive voice may appear occasionally,
+                    active
+                    voice is preferred.</p>
+
+                <h4>Stay consistent:</h4>
+                <p>Consistency in style and terminology enhances clarity. Use uniform language throughout your document.
+                </p>
+
+                <h4 class="border-top pt-3">Summary</h4>
+                <p>Plain language guidelines are essential tools for clear communication. They help you
+                    produce transparent and effective content. Although sticking to these principles is ideal,
+                    slight deviations may occur as you balance clarity with the nuances of language.
+                </p>
+            </section>
+
+            <section class="bg-info bg-opacity-50 p-3 rounded mt-4">
+                <ul class="nav nav-tabs mb-3" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active nav-link text-dark bg-primary bg-opacity-25 fw-bold border-white border-2" id="verbs-tab" data-bs-toggle="tab"
+                            data-bs-target="#verbs" type="button" role="tab">Verbs</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link text-dark bg-primary bg-opacity-25 fw-bold border-white border-2" id="nouns-tab" data-bs-toggle="tab"
+                            data-bs-target="#nouns" type="button" role="tab">Nouns</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link text-dark bg-primary bg-opacity-25 fw-bold border-white border-2" id="other-verbs-tab" data-bs-toggle="tab"
+                            data-bs-target="#other-verbs" type="button" role="tab">Other Verbs</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link text-dark bg-primary bg-opacity-25 fw-bold border-white border-2" id="sentences-tab" data-bs-toggle="tab"
+                            data-bs-target="#sentences" type="button" role="tab">Sentences</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link text-dark bg-primary bg-opacity-25 fw-bold border-white border-2" id="paragraphs-tab" data-bs-toggle="tab"
+                            data-bs-target="#paragraphs" type="button" role="tab">Paragraphs</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link text-dark bg-primary bg-opacity-25 fw-bold border-white border-2" id="lists-tab" data-bs-toggle="tab"
+                            data-bs-target="#lists" type="button" role="tab">List or Table</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="verbs" role="tabpanel" aria-labelledby="verbs-tab">
+                        <h3 class="text-white fw-bold">Verbs</h3>
+                        <table class="table table-primary table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Original Sentence</th>
+                                    <th>Rewritten</th>
+                                    <th>Reasoning</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>The report was completed.</td>
+                                    <td>The team completed the report.</td>
+                                    <td>Passive to active voice.</td>
+                                </tr>
+                                <tr>
+                                    <td>Implementation of new regulations will have been carried out by the
+                                        compliance team by the end of the year</td>
+                                    <td>The compliance team will implement the new regulations by the end of the
+                                        year.</td>
+                                    <td>Complex to simple verb phrase.</td>
+                                </tr>
+                                <tr>
+                                    <td>The teacher gave instructions, was explaining the project, and then assigns the
+                                        homework.</td>
+                                    <td>The teacher gave instructions, explained the project, and then assigned
+                                        homework.
+                                    </td>
+                                    <td>Inconsistent to consistent tense.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+
+
+                    <!-- Other tabs are empty placeholders -->
+                    <div class="tab-pane fade" id="nouns" role="tabpanel" aria-labelledby="nouns-tab">
+                        <div class="tab-pane fade show active" id="verbs" role="tabpanel" aria-labelledby="verbs-tab">
+                            <h3 class="text-white fw-bold">Nouns</h3>
+                            <table class="table table-primary table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>Original Sentence</th>
+                                        <th>Rewritten</th>
+                                        <th>Reasoning</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>The implementation of the new policy resulted in confusion among employees.
+                                        </td>
+                                        <td>The new policy confused employees.</td>
+                                        <td>Passive/abstract to active/direct.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>The CEO announced the acquisition of XYZ Corp during the AGM.</td>
+                                        <td>Our CEO announced we acquired XYZ Corp during the AGM.</td>
+                                        <td>More conversational and direct subject-verb structure.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Delivery of the presentation is scheduled for tomorrow at the HQ.</td>
+                                        <td>Our presentation is tomorrow at HQ.</td>
+                                        <td>Simplified and natural phrasing.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+
+                    </div>
+                    <div class="tab-pane fade" id="other-verbs" role="tabpanel" aria-labelledby="other-verbs-tab">
+                        <h3 class="text-white fw-bold">Other Word Issues</h3>
+                        <table class="table table-primary table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Original Sentence</th>
+                                    <th>Rewritten</th>
+                                    <th>Reasoning</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>The amelioration of the project's outcomes was achieved through meticulous data
+                                        analysis to foster enhancement.</td>
+                                    <td>Careful data analysis improved the project's outcome.</td>
+                                    <td>Wordy and abstract to concise and clear.</td>
+                                </tr>
+                                <tr>
+                                    <td>The concert will take place on Saturday, weather permitting, and is anticipated
+                                        to
+                                        be attended by approximately 200 individuals.</td>
+                                    <td>The concert is scheduled for Saturday and about 200 people are expected to
+                                        attend.
+                                    </td>
+                                    <td>Replaces formal or vague phrasing with more direct language.</td>
+                                </tr>
+                                <tr>
+                                    <td>The compliance team conducted the audit to ensure adherence to the ISO
+                                        standards,
+                                        but many team members were unfamiliar with these requirements.</td>
+                                    <td>The compliance team audited for ISO standards, but many members were unfamiliar
+                                        with
+                                        them.</td>
+                                    <td>Simplified structure and reduced redundancy.</td>
+                                </tr>
+                                <tr>
+                                    <td>The architect utilized a cantilevered design to optimize spatial integrity,
+                                        unbeknownst to the client.</td>
+                                    <td>The architect used a cantilevered design to make the space more open, without
+                                        the
+                                        client knowing.</td>
+                                    <td>Uses clearer, more conversational language in place of overly technical or
+                                        archaic
+                                        words.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <div class="tab-pane fade" id="sentences" role="tabpanel" aria-labelledby="sentences-tab">
+                        <h3 class="text-white fw-bold">Sentences</h3>
+                        <table class="table table-primary table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Original Sentence</th>
+                                    <th>Rewritten</th>
+                                    <th>Reasoning</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        Despite the widespread recognition of the importance of sustainability in
+                                        corporate
+                                        practices,
+                                        there are numerous organizations that continue to prioritize short-term profits,
+                                        which ultimately
+                                        detracts from the long-term viability of both the companies and the communities
+                                        in
+                                        which they operate.
+                                    </td>
+                                    <td>
+                                        Many organizations know sustainability is important but still prioritize
+                                        short-term
+                                        profits,
+                                        harming their long-term success and the communities they serve.
+                                    </td>
+                                    <td>
+                                        Breaks up a long, complex sentence into a clearer and more direct structure.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        It was determined by the committee after several lengthy discussions and
+                                        considerations of various
+                                        factors, including budget constraints and projected timelines, that the proposed
+                                        renovation of the
+                                        community center should be postponed until further notice.
+                                    </td>
+                                    <td>
+                                        After budget and timeline discussions, the committee postponed the renovation
+                                        until
+                                        further notice.
+                                    </td>
+                                    <td>
+                                        Passive to active voice with concise rephrasing.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Provided that the weather remains favorable and there are no unexpected delays
+                                        during the installation
+                                        process, the solar panels will be operational, thereby contributing to the
+                                        facility's energy efficiency,
+                                        by the end of the quarter.
+                                    </td>
+                                    <td>
+                                        If weather holds and there are no delays, the solar panels will be operational
+                                        by
+                                        quarter's end,
+                                        boosting energy efficiency.
+                                    </td>
+                                    <td>
+                                        Simplifies structure and uses everyday language.
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="paragraphs" role="tabpanel" aria-labelledby="paragraphs-tab">
+                        <h3 class="text-white fw-bold">Paragraphs</h3>
+                        <table class="table table-primary table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Original Paragraph</th>
+                                    <th>Rewritten</th>
+                                    <th>Reasoning</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        The environmental impacts of urbanization have been significant, particularly
+                                        concerning the increase
+                                        in air pollution levels and the reduction in green spaces due to the expansion
+                                        of
+                                        infrastructure. Cities
+                                        have been experiencing a rise in air pollutants resulting from increased
+                                        vehicular
+                                        emissions and industrial
+                                        activities. This has been exacerbated by the reduction in natural environments,
+                                        which has decreased the
+                                        capacity for city landscapes to filter out pollution naturally. Noise pollution
+                                        has
+                                        also become predominant,
+                                        with the increasing population density leading to a surge in transportation
+                                        noise
+                                        and general urban activity.
+                                        These environmental challenges have prompted cities to adopt various measures
+                                        aimed
+                                        at mitigating their
+                                        impacts, such as the implementation of green roofs and the creation of urban
+                                        parks.
+                                        Moreover, public
+                                        transportation systems have been expanded and improved to reduce reliance on
+                                        personal vehicles. Efforts to
+                                        promote sustainable practices are continuing, as are initiatives to enhance
+                                        urban
+                                        resilience in the face
+                                        of environmental challenges.
+                                    </td>
+                                    <td>
+                                        Urbanization has increased air and noise pollution while reducing green spaces.
+                                        Rising vehicle use and
+                                        industrial activity contribute to poor air quality, and fewer natural areas mean
+                                        less pollution is filtered
+                                        naturally. Cities are responding by adding green roofs, urban parks, and
+                                        expanding
+                                        public transportation to
+                                        promote sustainability and reduce environmental impact.
+                                    </td>
+                                    <td>
+                                        Condenses the paragraph, removes redundancy, and uses more direct,
+                                        reader-friendly
+                                        language.
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="lists" role="tabpanel" aria-labelledby="lists-tab">
+                        <h4 class="text-white fw-bold">Course Schedule - Table</h4>
+                        <table class="table table-primary table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Day of Week</th>
+                                    <th>Subject</th>
+                                    <th>Time</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Monday</td>
+                                    <td>Mathematics</td>
+                                    <td>10 AM - 12 PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Tuesday</td>
+                                    <td>Chemistry</td>
+                                    <td>11 AM - 1 PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Wednesday</td>
+                                    <td>Literature</td>
+                                    <td>9 AM - 11 AM</td>
+                                </tr>
+                                <tr>
+                                    <td>Thursday</td>
+                                    <td>Physics</td>
+                                    <td>2 PM - 4 PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Friday</td>
+                                    <td>Art</td>
+                                    <td>1 PM - 3 PM</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <h4 class="mt-4">Monthly Budget Breakdown - Table</h4>
+                        <table class="table table-primary table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Category</th>
+                                    <th>Amount</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Rent</td>
+                                    <td>$1200</td>
+                                </tr>
+                                <tr>
+                                    <td>Utilities</td>
+                                    <td>$200</td>
+                                </tr>
+                                <tr>
+                                    <td>Groceries</td>
+                                    <td>$400</td>
+                                </tr>
+                                <tr>
+                                    <td>Transportation</td>
+                                    <td>$150</td>
+                                </tr>
+                                <tr>
+                                    <td>Entertainment</td>
+                                    <td>$100</td>
+                                </tr>
+                                <tr>
+                                    <td>Savings</td>
+                                    <td>$300</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <h4>Steps to Bake a Cake - List, Order Matters</h4>
+                        <ol>
+                            <li><strong>Preheat the Oven:</strong> Set your oven to 350°F.</li>
+                            <li><strong>Mix Dry Ingredients:</strong> Combine flour, baking powder, salt, etc.</li>
+                            <li><strong>Cream Butter and Sugar:</strong> Beat until light and fluffy.</li>
+                            <li><strong>Add Eggs and Vanilla:</strong> Mix in one egg at a time and add vanilla.</li>
+                            <li><strong>Combine Wet and Dry:</strong> Gradually mix them together.</li>
+                            <li><strong>Pour Batter:</strong> Pour into a greased pan.</li>
+                            <li><strong>Bake:</strong> Bake for 30 minutes.</li>
+                            <li><strong>Cool:</strong> Let the cake cool on a wire rack.</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-info bg-opacity-50 p-3 rounded mt-4">
+                <h2 class="text-white border-bottom pb-2 fw-bold">Verbs Demystified</h2>
+                <p>Learn about verb usage by expanding the sections below.</p>
+
+                <div class="accordion" id="verbsAccordion">
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingActive">
+                            <button class="accordion-button bg-primary bg-opacity-75 fw-bold text-dark" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseActive" aria-expanded="true"
+                                aria-controls="collapseActive">
+                                Active vs. Passive Voice
+                            </button>
+                        </h2>
+                        <div id="collapseActive" class="accordion-collapse collapse show"
+                            aria-labelledby="headingActive" data-bs-parent="#verbsAccordion">
+                            <div class="accordion-body">
+                                <h5>What is Active Voice?</h5>
+                                <ul>
+                                    <li><strong>Definition:</strong> In an active sentence, the subject performs the
+                                        action.</li>
+                                    <li><strong>Example:</strong> "The cat chased the mouse." (Here, "the cat" is doing
+                                        the chasing.)</li>
+                                </ul>
+
+                                <h5>What is Passive Voice?</h5>
+                                <ul>
+                                    <li><strong>Definition:</strong> Passive sentences often use forms of "to be" plus a
+                                        past participle.</li>
+                                    <li><strong>Example:</strong> "The mouse was chased by the cat." (Here, "the mouse"
+                                        receives the action.)</li>
+                                </ul>
+
+                                <h5>How to Switch from Passive to Active:</h5>
+                                <ul>
+                                    <li><strong>Step 1:</strong> Identify the subject (the doer).<br><em>Passive:</em>
+                                        "The mouse was chased by the cat."</li>
+                                    <li><strong>Step 2:</strong> Move the doer to the beginning.<br><em>Active:</em>
+                                        "The cat chased the mouse."</li>
+                                    <li><strong>Tip:</strong> If the doer is missing, add it.<br><em>Passive:</em> "The
+                                        report was completed."<br><em>Active:</em> "The team completed the report."</li>
+                                </ul>
+
+                                <h5>Why Use Active Voice?</h5>
+                                <ul>
+                                    <li>Clearer and more direct sentences</li>
+                                    <li>More engaging and powerful writing</li>
+                                    <li>Better for instructions, persuasion, and clear communication</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTenses">
+                            <button class="accordion-button bg-primary bg-opacity-75 fw-bold text-dark collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseTenses" aria-expanded="false"
+                                aria-controls="collapseTenses">
+                                Understanding Verb Tenses and Forms
+                            </button>
+                        </h2>
+                        <div id="collapseTenses" class="accordion-collapse collapse" aria-labelledby="headingTenses"
+                            data-bs-parent="#verbsAccordion">
+                            <div class="accordion-body">
+                                <h5>Simple Verb Forms (Preferred for Clarity)</h5>
+                                <ul>
+                                    <li><strong>Simple Present:</strong> <em>walk</em> — for habits and truths (e.g.,
+                                        "She walks to school every day.")</li>
+                                    <li><strong>Simple Past:</strong> <em>walked</em> — for completed past actions
+                                        (e.g., "She walked to school yesterday.")</li>
+                                    <li><strong>Simple Future:</strong> <em>will walk</em> — for actions that will occur
+                                        (e.g., "She will walk to school tomorrow.")</li>
+                                </ul>
+
+                                <h5>Continuous Verb Forms</h5>
+                                <ul>
+                                    <li><strong>Definition:</strong> Show ongoing action.</li>
+                                    <li><strong>Examples:</strong>
+                                        <ul>
+                                            <li>Present: <em>is walking</em></li>
+                                            <li>Past: <em>was walking</em></li>
+                                            <li>Future: <em>will be walking</em></li>
+                                        </ul>
+                                    </li>
+                                    <li><strong>Note:</strong> Can add complexity without clarity.</li>
+                                </ul>
+
+                                <h5>Perfect Verb Forms</h5>
+                                <ul>
+                                    <li><strong>Definition:</strong> Relate actions to another time.</li>
+                                    <li><strong>Examples:</strong> has walked, had walked, will have walked</li>
+                                </ul>
+
+                                <h5>Perfect Continuous Forms</h5>
+                                <ul>
+                                    <li><strong>Definition:</strong> Combine perfect + continuous (e.g., "has been
+                                        walking")</li>
+                                    <li><strong>Note:</strong> Often harder to understand—use only when needed.</li>
+                                </ul>
+
+                                <h5>Verb Comparison Table</h5>
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-sm">
+                                        <thead class="table-light">
+                                            <tr>
+                                                <th>Verb Form</th>
+                                                <th>Example</th>
+                                                <th>When to Use</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Simple Present</td>
+                                                <td>walk</td>
+                                                <td>Habits and general truths</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Simple Past</td>
+                                                <td>walked</td>
+                                                <td>Completed actions in the past</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Simple Future</td>
+                                                <td>will walk</td>
+                                                <td>Future actions</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Present Continuous</td>
+                                                <td>is walking</td>
+                                                <td>Ongoing actions (use sparingly)</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Past Continuous</td>
+                                                <td>was walking</td>
+                                                <td>Past actions in progress</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Future Continuous</td>
+                                                <td>will be walking</td>
+                                                <td>Future ongoing actions</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Present Perfect</td>
+                                                <td>has walked</td>
+                                                <td>Relevance to the present</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Past Perfect</td>
+                                                <td>had walked</td>
+                                                <td>Before another past action</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Future Perfect</td>
+                                                <td>will have walked</td>
+                                                <td>Completed before a future time</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Perfect Continuous</td>
+                                                <td>has been walking</td>
+                                                <td>Ongoing + duration focus</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <h5>Recommendation for Clear Writing</h5>
+                                <ul>
+                                    <li><strong>Use Simple Forms:</strong> They’re direct and easier to read.</li>
+                                    <li><strong>Reserve Complex Forms:</strong> Use when clarity demands time-specific
+                                        or ongoing details.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="text-light bg-primary bg-opacity-75 mt-5 p-3">
+        <div class="col mb-3">
+            <span class="copyright"><strong>&copy;2025</strong><br> All Rights Reserved <br> Lauren Barfuss</span>
+        </div>
+        <div class="col mb-3">
+            <h2 class="fs-5">Accessibility Support</h2>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                    <a class="text-white" href="https://www.weber.edu/web-accessibility/">WSU: Web Accessibility</a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a class="text-white" href="https://www.weber.edu/web-accessibility/wave.html">WSU: Wave
+                        Software</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

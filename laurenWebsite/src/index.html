@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessiblity Website</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <script type="module" src="./javascripts/main.js"></script>
+</head>
+
+<body class="bg-dark text-light">
+  <div><a href="#mainCont" class="skip focus-ring focus-ring-info"></a></div>
+  <div class="container">
+    <header class="border-bottom border-info lh-1 py-3 text-center text-info">Lauren Barfuss Accessibility Site</header>
+    <nav aria-label="Main Navigation" class="navbar navbar-expand-lg nav-underline py-3 border-bottom border-info">
+      <div class="container d-flex flex-column align-item-center">
+        <button class="navbar-toggler focus-ring focus-ring-info bg-info" type="button" data-bs-toggle="collapse">
+          <i class="bi bi-list fs-2"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="navbar-item">
+              <a href="index.html"
+                class="text-info active bg-primary bg-opacity-25 rounded nav-link focus-ring focus-ring-info">Home</a>
+            </li>
+            <li class="navbar-item">
+              <a href="language.html" class="text-info nav-link focus-ring focus-ring-info">Plain Language</a>
+            </li>
+            <li class="navbar-item">
+              <a href="design.html" class="text-info nav-link focus-ring focus-ring-info">Site Design</a>
+            </li>
+            <li class="navbar-item">
+              <a href="aboutme.html" class="text-info nav-link focus-ring focus-ring-info">About
+                Me</a>
+            </li>
+            <li class="navbar-item">
+              <a href="contact.html" class="text-info nav-link focus-ring focus-ring-info">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </header>
+
+    <main aria-labelledby="main-heading" class="mt-3  p-3">
+      <div id="banner" class="py-4 py-md-5 mb-4 bg-info bg-opacity-50 p-3 rounded border border-white text-center">
+        <h1>Welcome to My Accessibility Website</h1>
+      </div>
+      <article class="border-bottom border-dark pb-2 mb-4" aria-labelledby="disabilities-heading">
+        <h2 class="text-white border-bottom pb-2 fw-bold">Disabilities in the United States</h2>
+
+        <figure role="group" class="figure bg-light rounded p-2 float-md-end ms-md-3">
+          <img src="./images/Labor Force Participation.svg"
+            alt="Bar chart of labor force participation rate by disability status and age, 2023">
+          <figcaption class="figure-caption"><a href="barchart.html" class="text-secondary" target="_blank">Image
+              Description (opens in new
+              tab)</a></figcaption>
+        </figure>
+
+
+        <p>The 2021 American Community Survey by the Census Bureau reported 13% of all Americans
+          have a non-institutionalized disability. Of the roughly 38,903,887 adults with a disability in the
+          United States, 19.7% of them live below the poverty line. This is almost double the number of
+          adults in the United States who are below the poverty line. This is partially due to lower rates of
+          employment for disabled people. In the United States, 25.9% of disabled people over the age of
+          16 are employed in the civilian sector, while 59.6% of all US citizens over 16 are employed in
+          the same sector.</p>
+
+
+        <p>Comparing the breakdown of disability between my current state of residence, Utah, and the
+          United States, Utah has a disabled population of 342,378 or 10.3% of the total population,
+          compared to the United States which has 42,485,034 disabled people or 13.0% of the total
+          population. Table 1: Disability Type by Gender for Utah and the United States shows the
+          disparities between genders and types of disabilities.</p>
+
+        <table class="table table-primary">
+          <caption class="text-light border p-2">Disability Type by Gender for Utah and the US
+            <br>
+            <span class="">
+              Column headers will specify geographic region (Utah or United States) as well as portion
+              of the disabled population describe (male, female, total). Row headers specify disability category.
+            </span>
+          </caption>
+          <thead>
+            <col>
+            <colgroup span="3"></colgroup>
+            <colgroup span="3"></colgroup>
+
+            <tr>
+              <td rowspan="2"></td>
+              <th colspan="3" scope="colgroup">Utah</th>
+              <th colspan="3" scope="colgroup">United States</th>
+            </tr>
+
+            <tr>
+              <th scope="col">Male</th>
+              <th scope="col">Female</th>
+              <th scope="col">Total</th>
+              <th scope="col">Male</th>
+              <th scope="col">Female</th>
+              <th scope="col">Total</th>
+            </tr>
+          </thead>
+
+          <tbody class="table-group-divider">
+            <tr>
+              <th scope="row">Congitive Disabilities</th>
+              <td>8.8%</td>
+              <td>9.5%</td>
+              <td>10.7%</td>
+              <td>9.5%</td>
+              <td>12.3%</td>
+              <td>10.9%</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Hearing Disabilities</th>
+              <td>7.6</td>
+              <td>4.2%</td>
+              <td>5.9%</td>
+              <td>7.2%</td>
+              <td>4.4%</td>
+              <td>5.7%</td>
+            </tr>
+            <tr>
+              <th scope="row">Mobility Disabilities</th>
+              <td>6.6%</td>
+              <td>10.7%</td>
+              <td>8.7%</td>
+              <td>9.6%</td>
+              <td>12.5%</td>
+              <td>11.1%</td>
+            </tr>
+            <tr>
+              <th scope="row">Vision Disabilities</th>
+              <td>2.4%</td>
+              <td>3.2%</td>
+              <td>2.8%</td>
+              <td>4.4%</td>
+              <td>5.3%</td>
+              <td>4.9%</td>
+            </tr>
+            <tr>
+              <th scope="row">Self-Care Disabilities</th>
+              <td>1.9%</td>
+              <td>2.4%</td>
+              <td>2.1%</td>
+              <td>3.0%</td>
+              <td>3.1%</td>
+              <td>3.0%</td>
+            </tr>
+            <tr>
+              <th scope="row">Independent Living Disabilities</th>
+              <td>3.9%</td>
+              <td>2.4%</td>
+              <td>5.4%</td>
+              <td>4.8%</td>
+              <td>7.9%</td>
+              <td>6.4%</td>
+            </tr>
+            <tr>
+              <th scope="row">No Disabilities</th>
+              <td>79.3%</td>
+              <td>75.5%</td>
+              <td>77.4%</td>
+              <td>76.5%</td>
+              <td>73.8%</td>
+              <td>77.4%</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>There are a few reasons why these disparities exist; however, that is not a topic for this page.</p>
+
+        <p>When it comes to representation by race, there are some interesting differences between Utah
+          and the United States. Table 2: Disability Percent by Race, you can see that Utah has a higher
+          occurrence of disabilities in the Black or African American, American Indian and Alaska Natives,
+          Native Hawai’ian and Other Pacific Islanders, and the Hispanic or Latino communities than the
+          United States as a whole. However, for the White community in Utah, they have a lower
+          occurrence of disability than the national rate.</p>
+
+        <table class="table table-primary table-sm w-75 mx-auto">
+          <caption class="text-white border p-2">Disability Percent by Race</caption>
+          <thead>
+            <td></td>
+            <th scope="col">Utah</th>
+            <th scope="col">United States</th>
+          </thead>
+
+          <tbody class="table-group-divider">
+            <tr>
+              <th scope="row">White</th>
+              <td>10.8%</td>
+              <td>14.0%</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Black or African-American</th>
+              <td>10.1%</td>
+              <td>14.5%</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Asian</th>
+              <td>18.6%</td>
+              <td>15.1%</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Native Hawai'ian and Other Pacific Islanders</th>
+              <td>7.8%</td>
+              <td>7.8%</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Hispanic or Latino</th>
+              <td>8.2%</td>
+              <td>9.9%</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Disability Percent by Race</th>
+              <td>%</td>
+              <td>%</td>
+            </tr>
+          </tbody>
+
+
+        </table>
+        <p>When we take into consideration the rates of disabilities in the United States (roughly 40
+          million people) and Utah (roughly 350,000 people), we can understand the importance of
+          building accessible experiences for all people.</p>
+      </article>
+
+
+      <article class="border-bottom border-dark pb-2 mb-4">
+        <h2 class="text-white border-bottom pb-2 fw-bold">Universal Design is Design for All</h2>
+        <p>Even the creator of the web, Tim Berners-Lee understood the importance of inclusion in web
+          design:</p>
+        <blockquote class="blockquote border-start border-primary border-2 p-2 bg-secondary rounded-end">The power of
+          the web is in its
+          universality. Access by everyone regardless is an essential
+          aspect.</blockquote>
+        <p>This website applies the principles of Universal Design, as defined by Ronald Mace and his
+          team:</p>
+        <dl class="row">
+          <dt class="col-sm-3 text-sm-end">Equitable Use</dt>
+          <dd class="col-sm-9">The design is useful and marketable to people with diverse abilities</dd>
+        </dl>
+        <dl class="row">
+          <dt class="col-sm-3 text-sm-end">Flexibility in Use</dt>
+          <dd class="col-sm-9">The design accommodates a wide range of individual preferences and abilities</dd>
+        </dl>
+        <dl class="row">
+          <dt class="col-sm-3 text-sm-end">Simple and Intuitive Use</dt>
+          <dd class="col-sm-9">Use of the design is easy to understand, regardless of the user’s experience, knowledge,
+            language skills, or current concentration level</dd>
+        </dl>
+        <dl class="row">
+          <dt class="col-sm-3 text-sm-end">Perceptible Information</dt>
+          <dd class="col-sm-9">The design communicates necessary information effectively to the user, regardless of
+            ambient conditions or the user’s sensory abilities</dd>
+        </dl>
+        <dl class="row">
+          <dt class="col-sm-3 text-sm-end">Tolerance for Error</dt>
+          <dd class="col-sm-9">The design minimizes hazards and the adverse consequences of accidental or unintended
+            actions</dd>
+        </dl>
+        <dl class="row">
+          <dt class="col-sm-3 text-sm-end">Low Physical Effort</dt>
+          <dd class="col-sm-9">The design can be used efficiently and comfortably and with a minimum of fatigue</dd>
+        </dl>
+        <dl class="row">
+          <dt class="col-sm-3 text-sm-end">Size and Space for Approach and Use</dt>
+          <dd class="col-sm-9">Appropriate size and space is provided for approach, reach, manipulation, and use
+            regardless
+            of user’s body size, posture, or mobility</dd>
+        </dl>
+
+        <p>It has also been built to meet the Level AA requirements of WCAG 2.1.</p>
+      </article>
+
+      <div class="accordion" id="referencesAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button bg-primary bg-opacity-75 fw-bold text-dark" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseActive" aria-expanded="true" aria-controls="collapseActive">
+              Refences
+            </button>
+          </h2>
+          <div id="collapseActive" class="accordion-collapse collapse" aria-labelledby="headingActive"
+            data-bs-parent="#referencesAccordion">
+            <div class="accordion-body">
+              <!--Used ChatGPT for giving the url's in the a tags a title and aria-label-->
+              <aside aria-labelledby="references-heading" class="my-4">
+                <h4 id="references-heading" class="h4 fw-bold mb-3">References</h4>
+                <ul class="list-group list-group-flush">
+
+                  <li class="list-group-item">
+                    U.S. Census Bureau (2021). Age by Number of Disabilities. American Community Survey 1-Year
+                    Estimates, Table B18108.
+                    Retrieved from
+                    <a href="https://data.census.gov/cedsci/table?q=b18108&y=2021&tid=ACSDT1Y2021.B18108"
+                      title="Access U.S. Census Table B18108: Age by Number of Disabilities"
+                      aria-label="U.S. Census Bureau 2021 Table B18108 Age by Number of Disabilities">
+                      https://data.census.gov/cedsci/table?q=b18108&y=2021&tid=ACSDT1Y2021.B18108
+                    </a>
+                  </li>
+
+                  <li class="list-group-item">
+                    U.S. Census Bureau (2021). Employment Status by Disability Status and Type. American Community
+                    Survey 1-Year Estimates, Table B18120.
+                    Retrieved from
+                    <a href="https://data.census.gov/cedsci/table?q=Disability%20status&y=2021&tid=ACSDT1Y2021.B18120"
+                      title="Access U.S. Census Table B18120: Employment Status by Disability"
+                      aria-label="U.S. Census Bureau 2021 Table B18120 Employment Status by Disability">
+                      https://data.census.gov/cedsci/table?q=Disability%20status&y=2021&tid=ACSDT1Y2021.B18120
+                    </a>
+                  </li>
+
+                  <li class="list-group-item">
+                    U.S. Census Bureau (2021). Age by Disability Status by Poverty Status. American Community Survey
+                    1-Year Estimates, Table B18130.
+                    Retrieved from
+                    <a href="https://data.census.gov/cedsci/table?q=Disability%20status&y=2021&tid=ACSDT1Y2021.B18130"
+                      title="Access U.S. Census Table B18130: Age by Disability and Poverty Status"
+                      aria-label="U.S. Census Bureau 2021 Table B18130 Age by Disability and Poverty Status">
+                      https://data.census.gov/cedsci/table?q=Disability%20status&y=2021&tid=ACSDT1Y2021.B18130
+                    </a>
+                  </li>
+
+                  <li class="list-group-item">
+                    U.S. Census Bureau (2021). Age by Disability Status by Health Insurance Coverage Status. American
+                    Community Survey 1-Year Estimates, Table B18135.
+                    Retrieved from
+                    <a href="https://data.census.gov/cedsci/table?q=Disability%20status&y=2021&tid=ACSDT1Y2021.B18135"
+                      title="Access U.S. Census Table B18135: Age by Disability and Health Insurance"
+                      aria-label="U.S. Census Bureau 2021 Table B18135 Age by Disability and Health Insurance">
+                      https://data.census.gov/cedsci/table?q=Disability%20status&y=2021&tid=ACSDT1Y2021.B18135
+                    </a>
+                  </li>
+
+                  <li class="list-group-item">
+                    U.S. Census Bureau (2021). Selected Economic Characteristics. American Community Survey 1-Year
+                    Estimates, Table DP03.
+                    Retrieved from
+                    <a href="https://data.census.gov/cedsci/table?q=dp03&g=0100000US&tid=ACSDP1Y2021.DP03"
+                      title="Access U.S. Census Table DP03: Selected Economic Characteristics"
+                      aria-label="U.S. Census Bureau 2021 Table DP03 Selected Economic Characteristics">
+                      https://data.census.gov/cedsci/table?q=dp03&g=0100000US&tid=ACSDP1Y2021.DP03
+                    </a>
+                  </li>
+
+                  <li class="list-group-item">
+                    U.S. Census Bureau (2021). ACS Demographic and Housing Estimates. American Community Survey 1-Year
+                    Estimates, Table DP05.
+                    Retrieved from
+                    <a href="https://data.census.gov/cedsci/table?g=0100000US&tid=ACSDP1Y2021.DP05"
+                      title="Access U.S. Census Table DP05: Demographic and Housing Estimates"
+                      aria-label="U.S. Census Bureau 2021 Table DP05 Demographic and Housing Estimates">
+                      https://data.census.gov/cedsci/table?g=0100000US&tid=ACSDP1Y2021.DP05
+                    </a>
+                  </li>
+
+                  <li class="list-group-item">
+                    U.S. Census Bureau (2021). Educational Attainment. American Community Survey 1-Year Estimates, Table
+                    S1501.
+                    Retrieved from
+                    <a href="https://data.census.gov/cedsci/table?q=s1501&g=0100000US&tid=ACSST1Y2021.S1501"
+                      title="Access U.S. Census Table S1501: Educational Attainment"
+                      aria-label="U.S. Census Bureau 2021 Table S1501 Educational Attainment">
+                      https://data.census.gov/cedsci/table?q=s1501&g=0100000US&tid=ACSST1Y2021.S1501
+                    </a>
+                  </li>
+
+                  <li class="list-group-item">
+                    U.S. Census Bureau (2021). Disability Characteristics. American Community Survey 1-Year Estimates,
+                    Table S1810.
+                    Retrieved from
+                    <a href="https://data.census.gov/cedsci/table?q=Disability&y=2021&tid=ACSST1Y2021.S1810"
+                      title="Access U.S. Census Table S1810: Disability Characteristics"
+                      aria-label="U.S. Census Bureau 2021 Table S1810 Disability Characteristics">
+                      https://data.census.gov/cedsci/table?q=Disability&y=2021&tid=ACSST1Y2021.S1810
+                    </a>
+                  </li>
+                </ul>
+              </aside>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <footer class="text-light bg-primary bg-opacity-75 mt-5 p-3">
+    <div class="col mb-3">
+      <span class="copyright"><strong>&copy;2025</strong><br> All Rights Reserved <br> Lauren Barfuss</span>
+    </div>
+    <div class="col mb-3">
+      <h2 class="fs-5">Accessibility Support</h2>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2">
+          <a class="text-white" href="https://www.weber.edu/web-accessibility/">WSU: Web Accessibility</a>
+        </li>
+        <li class="nav-item mb-2">
+          <a class="text-white" href="https://www.weber.edu/web-accessibility/wave.html">WSU: Wave Software</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
