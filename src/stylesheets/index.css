@@ -1,0 +1,42 @@
+html {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#imgMe{
+    width:30vw;
+}
+img{
+    width: 80vw;
+}
+
+@media all and (min-width: 768px){
+    img { width: 40vw}
+
+}
+
+.hidden{
+    display: none;
+}
+
+
+.tabColor{
+    background-color: rgb(48, 182, 209) !important;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table>caption>span{
+    font-size: .7rem;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 6px;
+    text-align: center;
+}
+
+.clearfix {
+  overflow: auto;
+}
