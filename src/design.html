@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Design</title>
+  <link rel="stylesheet" href="./stylesheets/index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <script type="module" src="./javascripts/main.js"></script>
+</head>
+
+
+<body class="bg-dark text-light">
+  <div><a href="#mainCont" class="skip focus-ring focus-ring-info" aria-label="skip to main content"></a></div>
+  <div class="container">
+    <header class="border-bottom border-info lh-1 py-3 text-center text-info">Lauren Barfuss Accessibility Site
+    </header>
+    <nav aria-label="Main Navigation" class="navbar navbar-expand-lg nav-underline py-3 border-bottom border-info">
+      <div class="container d-flex flex-column align-item-center">
+        <button class="navbar-toggler focus-ring focus-ring-info bg-info" type="button" title="button"
+          data-bs-toggle="collapse">
+          <i class="bi bi-list fs-2"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="navbar-item">
+              <a href="index.html" class="text-info nav-link focus-ring focus-ring-info">Home</a>
+            </li>
+            <li class="navbar-item">
+              <a href="language.html" class="text-info nav-link focus-ring focus-ring-info">Plain
+                Language</a>
+            </li>
+            <li class="navbar-item">
+              <a href="design.html"
+                class="active rounded bg-primary bg-opacity-25  text-info nav-link focus-ring focus-ring-info">Site
+                Design</a>
+            </li>
+            <li class="navbar-item">
+              <a href="aboutme.html" class="text-info nav-link focus-ring focus-ring-info">About
+                Me</a>
+            </li>
+            <li class="navbar-item">
+              <a href="contact.html" class="text-info nav-link focus-ring focus-ring-info">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </header>
+
+
+        <main class="mt-4">
+            <section class="primaryColor p-3 rounded ">
+                <h2 class="text-white border-bottom pb-2 h2 fw-bold">Introduction: Why visual design and structure</h2>
+                <p>Good visual design is important because it creates a better user experience. When a website looks
+                    clean and easy to use
+                    visitors are more likely to stay longer using your website. And those with disabilities will be able
+                    to use your website easily.</p>
+
+                <p>If a website has a good structure, it allows ease of navigation for users. Accessibility for those
+                    using screen readers. Also allows good responsiveness for mobile designs.</p>
+            </section>
+
+            <section class="primaryColor mt-4 p-3 rounded ">
+                <h2 class="text-white border-bottom pb-2 h2 fw-bold">Visual Design:</h2>
+
+                <h3 class="pt-2">Colors:</h3>
+                <p><strong>Primary Color:</strong> Blue (#136172). </p>
+                <p>At first, I was using bootstrap bg-info and added
+                    bg-opacity-50 because I did not like how bright the bg-info was. However, checking the Contrast
+                    Check it failled the WCAG AAA check. So I manually selected it to (#136172).</p>
+                <p><strong>Secondary Colors:</strong>
+                <ul>
+                    <li>Bg-info (#0dcaf0):. I used the bg-info form bootstrap as
+                        the color for the naviagation.</li>
+                    <li>Aqua Blue (#00D0FF): for the footer.</li>
+                    <li>bg-dark (#212529): Used for the page body background for a nice dark mode experiance. </li>
+                    <li>table-primary (#212529): Used for the tables.</li>
+                    <li>bg-primary bg-opacity-75 (#4A92FE): Used for the Accordions.</li>
+                    <li>bg-info-subtle (#CFF4FC): Used for the contact form backgrounds.</li>
+                </ul>
+
+                <p>The way I came accross these colord where basing it on the bootstrap premade colors. And the
+                    color --primary was the best suited for the darker background. I used bg-opacity if I wanted
+                    variations on the primary blue color.</p>
+
+
+
+                <h3 class="pt-4 text-white border-bottom pb-2">Typography:</h3>
+                <p>The fonts I used where: "system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto
+                    Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI
+                    Symbol","Noto
+                    Color Emoji".
+                    this choice is because i used bootstrap and it imported "--bs-body-font-family".</p>
+
+                <p>I used bootstrap defaults for the sizing, weights and colors for almost all of the website.
+                    Entrusting that the bootstrap developers made everything appropriately.</p>
+
+                <h3 class="text-white border-bottom pb-2">Layout/Navigation</h3>
+                <p>I caused the navigation to be located at the top center of the page, causing a eye motion of top
+                    down. If the screen size gets too small, there is a hamburger icon displayed instead.</p>
+
+                <h3 class="text-white border-bottom pb-2">Content</h3>
+                <p>I based the content based on past assignemnts of this class and the requirements for the final
+                    project. Such as Home, Plain Language, Site Design, About Me, Contact Me</p>
+                <h3 class="text-white border-bottom pb-2">Resized without compromising readability?</h3>
+                <p>Yes, because it was build upon bootstrap, causing the page struture to expand and condense naturally.
+                </p>
+                <h3 class="text-white border-bottom pb-2">Bootstrap?</h3>
+                <p>YES! Bootstrap was heavly used in this website for it's easy of use and bulit in accessibility
+                    capabilities.</p>
+            </section>
+
+
+            <section class="primaryColor p-3 mt-4 rounded ">
+                <h2 class="text-white border-bottom pb-2 h2 fw-bold">Structural Design</h2>
+                <p>Many things where implmenented to insurance good accessibility design from a coding standpoint.</p>
+                <ul>
+                    <li>Used ARIA</li>
+                    <li>Used semantic elements as much as possibile, such as h1, h2, p, etc</li>
+                    <li>Descripitive link text: All the links have descripitive text such as the reference section in the home page.</li>
+                    <li>Focus styles: Relied upon bootstrap to have focus capabilities built in. But for the header navigation I added a class that will highlight box will be on the selected item.</li>
+                    <li>Skip navigation link: I added a skip navigation button for screen readers to say and users to select with there keyboard.</li>
+                    <li>Responsive design: Since almost all the website is made with bootstrap, it has response layout built into it.</li>
+                    <li>Alt-Text is added to all the images and figures in the website.</li>
+                    <li>Tested with windows screen reader. Checked for accessibility scores with lighthouse and axe Devtools. Checked colors with contrast checker tool.</li>
+        
+                
+                </ul>
+
+                <p>If a website has a good structure, it allows ease of navigation for users. Accessibility for those
+                    using screen readers. Also allows good responsiveness for mobile designs.</p>
+            </section>
+
+
+        </main>
+
+    </div>
+
+    <footer class="text-dark mt-5 p-3">
+        <div class="col mb-3">
+            <span class="copyright"><strong>&copy;2025</strong><br> All Rights Reserved <br> Lauren Barfuss</span>
+        </div>
+        <div class="col mb-3">
+            <h2 class="fs-5">Accessibility Support</h2>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                    <a class="text-dark" href="https://www.weber.edu/web-accessibility/" alt="Link to WSU accessibility website">WSU: Web Accessibility</a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a class="text-dark" href="https://www.weber.edu/web-accessibility/wave.html" alt="link to wsu wave software">WSU: Wave
+                        Software</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

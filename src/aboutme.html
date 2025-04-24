@@ -6,19 +6,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Me</title>
+  <link rel="stylesheet" href="./stylesheets/index.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <script type="module" src="./javascripts/main.js"></script>
-  <link rel="stylesheet" href="stylesheets/index.css">
 </head>
 
+
 <body class="bg-dark text-light">
-  <div><a href="#mainCont" class="skip focus-ring focus-ring-info"></a></div>
+  <div><a href="#mainCont" class="skip focus-ring focus-ring-info" aria-label="skip to main content"></a></div>
   <div class="container">
-    <header class="border-bottom border-info lh-1 py-3 text-center text-info">Lauren Barfuss Accessibility Site</header>
+    <header class="border-bottom border-info lh-1 py-3 text-center text-info">Lauren Barfuss Accessibility Site
+    </header>
     <nav aria-label="Main Navigation" class="navbar navbar-expand-lg nav-underline py-3 border-bottom border-info">
       <div class="container d-flex flex-column align-item-center">
-        <button class="navbar-toggler focus-ring focus-ring-info bg-info" type="button" data-bs-toggle="collapse">
+        <button class="navbar-toggler focus-ring focus-ring-info bg-info" type="button" title="button"
+          data-bs-toggle="collapse">
           <i class="bi bi-list fs-2"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -27,14 +30,16 @@
               <a href="index.html" class="text-info nav-link focus-ring focus-ring-info">Home</a>
             </li>
             <li class="navbar-item">
-              <a href="language.html" class="text-info nav-link focus-ring focus-ring-info">Plain Language</a>
+              <a href="language.html" class="text-info nav-link focus-ring focus-ring-info">Plain
+                Language</a>
             </li>
             <li class="navbar-item">
-              <a href="design.html" class="text-info nav-link focus-ring focus-ring-info">Site Design</a>
+              <a href="design.html"
+                class="text-info nav-link focus-ring focus-ring-info">Site
+                Design</a>
             </li>
             <li class="navbar-item">
-              <a href="aboutme.html"
-                class="active bg-primary bg-opacity-25 rounded text-info nav-link focus-ring focus-ring-info">About
+              <a href="aboutme.html" class="active rounded bg-primary bg-opacity-25 text-info nav-link focus-ring focus-ring-info">About
                 Me</a>
             </li>
             <li class="navbar-item">
@@ -49,17 +54,17 @@
 
 
     <main class="text-light container mx-auto mt-3">
-        <img src="images/me.jpg" id="imgMe" alt="Image of Lauren Barfuss at WSU." class="float-start mx-3 rounded border" >
-        
-        <h1 class="text-white pb-2 fw-bold">About Me</h1>
+      <img src="images/me.jpg" id="imgMe" alt="Image of Lauren Barfuss at WSU." class="float-start mx-3 rounded border">
 
-        <p>
-          My name is Lauren Barfuss, I am in web dsign/devolepment because, I am studying web and user experience
-          design and want to specialize in web accessiblity.
-          Some of my hobbies are being outdoors, I recently picked up a new hobby in skiing and I love to cook and
-          bake. I also like performing in musical theatre as well as any other musical thing as well.
-          My favorite colors are black and red.
-        </p>
+      <h1 class="text-white pb-2 fw-bold">About Me</h1>
+
+      <p>
+        My name is Lauren Barfuss, I am in web dsign/devolepment because, I am studying web and user experience
+        design and want to specialize in web accessiblity.
+        Some of my hobbies are being outdoors, I recently picked up a new hobby in skiing and I love to cook and
+        bake. I also like performing in musical theatre as well as any other musical thing as well.
+        My favorite colors are black and red.
+      </p>
 
 
       <article class="border-bottom border-dark pb-2 mb-3">
@@ -73,7 +78,7 @@
           needs.
         </p>
 
-        <h3 class="text-white border-bottom pb-2 fw-bold">Automated Tools are NOT Enough</h3>
+        <h3 class="text-white pb-2 fw-bold">Automated Tools are NOT Enough</h3>
         <p>
           Automated accessibility tools like WAVE are great for catching quick issues. Wave can also help us fix
           the
@@ -81,7 +86,7 @@
           contrast.
         </p>
 
-        <h3 class="text-white border-bottom pb-2 fw-bold">Accessibility Standards I Use</h3>
+        <h3 class="text-white pb-2 fw-bold">Accessibility Standards I Use</h3>
         <p>
           The web standards I know are the WCAG standards for web compliance have been devolped by the W3C to help
           us
@@ -91,7 +96,7 @@
           such as level standards.
         </p>
 
-        <h3 class="text-white border-bottom pb-2 fw-bold">Why Inclusion During Design/Development Matters</h3>
+        <h3 class="text-white pb-2 fw-bold">Why Inclusion During Design/Development Matters</h3>
         <p>
           Including people of all backgrounds and abilities in testing and design means the product will work for
           everyone especially for users with disabilities. When sites aren't user friendly it can frustrate users
@@ -100,19 +105,18 @@
         </p>
       </article>
 
-      <article class="border-bottom border-dark pb-2 mb-3">
+      <article class="border-bottom border-white pb-2 mb-3">
         <h2 class="text-white border-bottom pb-2 fw-bold">Accessibility Statement for <span
             class="basic-information website-name">Larens Webiste</span></h2>
         <p>
-          This is an accessibility statement from <span class="basic-information organization-name">Weber
-            State University</span>.
+          This is an accessibility statement from Lauren Barfuss
         </p>
         <h3>Conformance status</h3>
         <p>
           The <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">Web Content Accessibility Guidelines
             (WCAG)</a> defines requirements for designers and developers to improve accessibility for people
           with disabilities. It defines three levels of conformance: Level A, Level AA, and Level AAA.
-          <span class="basic-information website-name">WEBSITE_NAME</span>
+          <span class="basic-information website-name">Lauren Website</span>
           is
           <span class="basic-information conformance-status" data-printfilter="lowercase">partially
             conformant</span>
@@ -129,9 +133,9 @@
         <h3>Feedback</h3>
         <p>
           We welcome your feedback on the accessibility of
-          <span class="basic-information website-name">WEBSITE_NAME</span>.
+          <span class="basic-information website-name">Lauren Website</span>.
           Please let us know if you encounter accessibility barriers on
-          <span class="basic-information website-name">WEBSITE_NAME</span>:
+          <span class="basic-information website-name">Lauren Website</span>:
         </p>
         <ul class="basic-information feedback h-card">
           <li>
@@ -163,7 +167,8 @@
   </div>
 
 
-  <footer class="text-light bg-primary bg-opacity-75 mt-5 p-3">
+
+  <footer class="text-dark mt-5 p-3">
     <div class="col mb-3">
       <span class="copyright"><strong>&copy;2025</strong><br> All Rights Reserved <br> Lauren Barfuss</span>
     </div>
@@ -171,10 +176,11 @@
       <h2 class="fs-5">Accessibility Support</h2>
       <ul class="nav flex-column">
         <li class="nav-item mb-2">
-          <a class="text-white" href="https://www.weber.edu/web-accessibility/">WSU: Web Accessibility</a>
+          <a class="text-dark" href="https://www.weber.edu/web-accessibility/">WSU: Web Accessibility</a>
         </li>
         <li class="nav-item mb-2">
-          <a class="text-white" href="https://www.weber.edu/web-accessibility/wave.html">WSU: Wave Software</a>
+          <a class="text-dark" href="https://www.weber.edu/web-accessibility/wave.html">WSU: Wave
+            Software</a>
         </li>
       </ul>
     </div>

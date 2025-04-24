@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Language</title>
+    <title>Langauge</title>
     <link rel="stylesheet" href="./stylesheets/index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -14,13 +14,13 @@
 
 
 <body class="bg-dark text-light">
-    <div><a href="#mainCont" class="skip focus-ring focus-ring-info"></a></div>
+    <div><a href="#mainCont" class="skip focus-ring focus-ring-info" aria-label="skip to main content"></a></div>
     <div class="container">
         <header class="border-bottom border-info lh-1 py-3 text-center text-info">Lauren Barfuss Accessibility Site
         </header>
         <nav aria-label="Main Navigation" class="navbar navbar-expand-lg nav-underline py-3 border-bottom border-info">
             <div class="container d-flex flex-column align-item-center">
-                <button class="navbar-toggler focus-ring focus-ring-info bg-info" type="button"
+                <button class="navbar-toggler focus-ring focus-ring-info bg-info" type="button" title="button"
                     data-bs-toggle="collapse">
                     <i class="bi bi-list fs-2"></i>
                 </button>
@@ -31,11 +31,12 @@
                         </li>
                         <li class="navbar-item">
                             <a href="language.html"
-                                class="text-info active bg-primary bg-opacity-25 rounded  nav-link focus-ring focus-ring-info">Plain
+                                class="active rounded bg-primary bg-opacity-25  text-info nav-link focus-ring focus-ring-info">Plain
                                 Language</a>
                         </li>
                         <li class="navbar-item">
-                            <a href="design.html" class="text-info nav-link focus-ring focus-ring-info">Site Design</a>
+                            <a href="design.html" class=" text-info nav-link focus-ring focus-ring-info">Site
+                                Design</a>
                         </li>
                         <li class="navbar-item">
                             <a href="aboutme.html" class="text-info nav-link focus-ring focus-ring-info">About
@@ -48,11 +49,11 @@
                 </div>
             </div>
         </nav>
-        </header>
 
         <main class="mt-4">
-            <section class="bg-info bg-opacity-50 p-3 rounded">
-                <h2 class="text-white border-bottom pb-2 h2 fw-bold">Plain Language: What is it? And how do I do it?</h2>
+            <section class="primaryColor p-3 rounded">
+                <h2 class="text-white border-bottom pb-2 h2 fw-bold">Plain Language: What is it? And how do I do it?
+                </h2>
                 <p>Plain language means writing in a way that your audience can easily understand. It focuses on
                     clarity,
                     simplicity, and structure. Whether it's a webpage, email, or document, plain language helps your
@@ -61,7 +62,7 @@
                     screen
                     readers or translation tools.</p>
             </section>
-            <section class="bg-info bg-opacity-50 p-3 rounded mt-4">
+            <section class="primaryColor p-3 rounded mt-4">
                 <h3 class="text-white border-bottom pb-2 h3 fw-bold">What Are the Key Guidelines?</h3>
                 <h4>Know your audience:</h4>
                 <p>Tailor your message to your readers’ needs, expectations, and
@@ -93,31 +94,38 @@
                 </p>
             </section>
 
-            <section class="bg-info bg-opacity-50 p-3 rounded mt-4">
+            <section class="primaryColor p-3 rounded mt-4">
                 <ul class="nav nav-tabs mb-3" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link bg-primary-subtle active nav-link text-dark fw-bold border-white border-2" id="verbs-tab" data-bs-toggle="tab"
-                            data-bs-target="#verbs" type="button" role="tab">Verbs</button>
+                        <button
+                            class="nav-link bg-primary-subtle active nav-link text-dark fw-bold border-white border-2"
+                            id="verbs-tab" data-bs-toggle="tab" data-bs-target="#verbs" type="button"
+                            role="tab">Verbs</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link bg-primary-subtle text-dark fw-bold border-white border-2" id="nouns-tab" data-bs-toggle="tab"
-                            data-bs-target="#nouns" type="button" role="tab">Nouns</button>
+                        <button class="nav-link bg-primary-subtle text-dark fw-bold border-white border-2"
+                            id="nouns-tab" data-bs-toggle="tab" data-bs-target="#nouns" type="button"
+                            role="tab">Nouns</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link bg-primary-subtle text-dark fw-bold border-white border-2" id="other-verbs-tab" data-bs-toggle="tab"
-                            data-bs-target="#other-verbs" type="button" role="tab">Other Verbs</button>
+                        <button class="nav-link bg-primary-subtle text-dark fw-bold border-white border-2"
+                            id="other-verbs-tab" data-bs-toggle="tab" data-bs-target="#other-verbs" type="button"
+                            role="tab">Other Verbs</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link bg-primary-subtle text-dark fw-bold border-white border-2" id="sentences-tab" data-bs-toggle="tab"
-                            data-bs-target="#sentences" type="button" role="tab">Sentences</button>
+                        <button class="nav-link bg-primary-subtle text-dark fw-bold border-white border-2"
+                            id="sentences-tab" data-bs-toggle="tab" data-bs-target="#sentences" type="button"
+                            role="tab">Sentences</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link bg-primary-subtle text-dark fw-bold border-white border-2" id="paragraphs-tab" data-bs-toggle="tab"
-                            data-bs-target="#paragraphs" type="button" role="tab">Paragraphs</button>
+                        <button class="nav-link bg-primary-subtle text-dark fw-bold border-white border-2"
+                            id="paragraphs-tab" data-bs-toggle="tab" data-bs-target="#paragraphs" type="button"
+                            role="tab">Paragraphs</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link bg-primary-subtle text-dark  fw-bold border-white border-2" id="lists-tab" data-bs-toggle="tab"
-                            data-bs-target="#lists" type="button" role="tab">List or Table</button>
+                        <button class="nav-link bg-primary-subtle text-dark  fw-bold border-white border-2"
+                            id="lists-tab" data-bs-toggle="tab" data-bs-target="#lists" type="button" role="tab">List or
+                            Table</button>
                     </li>
                 </ul>
                 <div class="tab-content" id="myTabContent">
@@ -460,7 +468,7 @@
                 </div>
             </section>
 
-            <section class="bg-info bg-opacity-50 p-3 rounded mt-4">
+            <section class="primaryColor p-3 rounded mt-4">
                 <h2 class="text-white border-bottom pb-2 fw-bold">Verbs Demystified</h2>
                 <p>Learn about verb usage by expanding the sections below.</p>
 
@@ -515,9 +523,9 @@
 
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTenses">
-                            <button class="accordion-button bg-primary bg-opacity-75 fw-bold text-dark collapsed" type="button"
-                                data-bs-toggle="collapse" data-bs-target="#collapseTenses" aria-expanded="false"
-                                aria-controls="collapseTenses">
+                            <button class="accordion-button bg-primary bg-opacity-75 fw-bold text-dark collapsed"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseTenses"
+                                aria-expanded="false" aria-controls="collapseTenses">
                                 Understanding Verb Tenses and Forms
                             </button>
                         </h2>
@@ -640,7 +648,7 @@
         </main>
     </div>
 
-    <footer class="text-light bg-primary bg-opacity-75 mt-5 p-3">
+    <footer class="text-dark mt-5 p-3">
         <div class="col mb-3">
             <span class="copyright"><strong>&copy;2025</strong><br> All Rights Reserved <br> Lauren Barfuss</span>
         </div>
@@ -648,10 +656,10 @@
             <h2 class="fs-5">Accessibility Support</h2>
             <ul class="nav flex-column">
                 <li class="nav-item mb-2">
-                    <a class="text-white" href="https://www.weber.edu/web-accessibility/">WSU: Web Accessibility</a>
+                    <a class="text-dark" href="https://www.weber.edu/web-accessibility/">WSU: Web Accessibility</a>
                 </li>
                 <li class="nav-item mb-2">
-                    <a class="text-white" href="https://www.weber.edu/web-accessibility/wave.html">WSU: Wave
+                    <a class="text-dark" href="https://www.weber.edu/web-accessibility/wave.html">WSU: Wave
                         Software</a>
                 </li>
             </ul>

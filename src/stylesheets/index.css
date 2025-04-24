@@ -1,5 +1,5 @@
-html {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important
 }
 
 #imgMe{
@@ -22,9 +22,17 @@ img{
 .tabColor{
     background-color: rgb(48, 182, 209) !important;
 }
+
+footer{
+    background-color: #00D0FF;
+}
 table {
     width: 100%;
     border-collapse: collapse;
+}
+
+a{
+    color: #9BC2FD
 }
 
 table>caption>span{
@@ -35,6 +43,10 @@ td, th {
     border: 1px solid black;
     padding: 6px;
     text-align: center;
+}
+
+.primaryColor{
+    background-color: #136172;
 }
 
 .clearfix {
